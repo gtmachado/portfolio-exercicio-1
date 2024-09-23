@@ -1,0 +1,43 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+#sobre
+{
+    background:  linear-gradient(#ffffff, rgb(53, 57, 82));;
+}
+.navbar{
+    background-color: white;
+}
+.nav-link{
+    color: black;
+    font-size: 1rem;
+    font-weight: 500;
+    cursor: pointer;
+    text-decoration: none;
+}
+.nav-link:hover{
+    color: white;
+    background-color: black;
+}
+.navbar-brand{
+    font-size: 1.25rem;
+    color: black;
+    cursor: pointer;
+    text-decoration: none;
+}
+#sobre
+ h1 span {
+    color: darkblue;
+}
+#sobre
+ .btn {
+    padding: 10px 20px;
+}
+
+footer{
+    background-color: white;
+    color: black;
+}
