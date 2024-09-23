@@ -6,10 +6,9 @@
 }
 #sobre
 {
-    background:  linear-gradient(#ffffff, rgb(53, 57, 82));;
-}
-.navbar{
-    background-color: white;
+    background-color: rgb(217, 218, 224);    
+    background:  linear-gradient(#ffffff, rgb(39, 44, 78));;
+    /* background:  linear-gradient(#fff785, rgb(45, 51, 87));; */
 }
 .nav-link{
     color: black;
@@ -30,7 +29,8 @@
 }
 #sobre
  h1 span {
-    color: darkblue;
+    color: rgb(255, 255, 255);
+    font-weight: 400;
 }
 #sobre
  .btn {
