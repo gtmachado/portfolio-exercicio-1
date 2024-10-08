@@ -106,9 +106,32 @@
     </section>
     
 
-    <section id="contato" class="py-5 text-center d-flex align-items-center py-5 text-center" style="height: 100vh;">
-        <div class="container">
-            <h2>Contato</h2>
+    <section id="contato" class="py-5 text-center d-flex align-items-center py-5 text-center" style="height: 100vh; max-width: 100vh; margin: 0 auto;">
+        <div class="container text-align: left">
+            <h2 class="mb-5">Contato</h2>
+            <form>
+                <div class="mb-3">
+                  <label for="nome" class="form-label">Nome</label>
+                  <input type="text" class="form-control" id="nome" placeholder="Nome Sobrenome">
+                </div>
+                <div class="mb-3">
+                  <label for="email" class="form-label">E-mail</label>
+                  <input type="email" class="form-control" id="email" aria-describedby="emailHelp" placeholder="nome@exemplo.com">
+                </div>
+                <div class="mb-3">
+                    <label for="telefone" class="form-label">Telefone</label>
+                    <input type="tel" class="form-control" id="telefone" placeholder="(00) 00000-0000">
+                  </div>
+                <div class="mb-3">
+                    <label for="assunto" class="form-label">Assunto</label>
+                    <input type="text" class="form-control" id="assunto" placeholder="Assunto">
+                  </div>
+                <div class="mb-3">
+                    <label for="mensagem" class="form-label">Mensagem</label>
+                    <textarea type="text" class="form-control" id="mensagem" rows="3"></textarea>
+                  </div>
+                <button type="submit" class="btn btn-primary">Enviar</button>
+              </form>
         </div>
     </section>
 
